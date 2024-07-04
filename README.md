@@ -5,5 +5,8 @@
 [![GHPages Badge](https://img.shields.io/badge/GitHub%20Pages-black?style=flat-square&logo=GitHub&logoColor=white&link=https://igorb-dev.github.io/igorb-dev/)](https://igorb-dev.github.io/igorb-dev/)
 
 
-![WELL1NGTON's github stats](https://github-readme-stats.vercel.app/api?username=igorb-dev&show_icons=true&count_private=true&theme=monokai)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=igorb-dev)](https://github.com/igorb-dev/github-readme-stats&theme=monokai)
+### ⚡ GitHub Stats
+<div style="display:inline-block">
+<img  height="150em" alt="" src="https://github-readme-stats.vercel.app/api?username=igorb-dev&show_icons=true&theme=monokai">
+<img height="150em" alt="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorb-dev&layout=compact&theme=monokai">
+</div>
