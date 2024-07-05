@@ -4,7 +4,7 @@
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/igorbdev/)](https://www.linkedin.com/in/igorbdev/)
 [![GHPages Badge](https://img.shields.io/badge/GitHub%20Pages-black?style=flat-square&logo=GitHub&logoColor=white&link=https://igorb-dev.github.io/igorb-dev/)](https://igorb-dev.github.io/igorb-dev/)
-[![GHPages Badge](https://img.shields.io/badge/YouTube%20Pages-black?style=flat-square&logo=YouTube&logoColor=white&link=https://www.youtube.com/@igorbdev)](https://www.youtube.com/@igorbdev)
+[![YouTube](https://img.shields.io/badge/YouTube%20Pages-red?style=flat-square&logo=YouTube&logoColor=white&link=https://www.youtube.com/@igorbdev)](https://www.youtube.com/@igorbdev)
 
 
 ### ⚡ GitHub Stats
