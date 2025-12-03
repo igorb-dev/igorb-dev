@@ -5,6 +5,7 @@ import CReact from "./assets/CReact.png";
 import Redux from "./assets/Redux.png";
 import UIDesign from "./assets/UIDesign.png";
 import WebDesign from "./assets/WebDesign.png";
+import FrontEndUiUx from "./assets/FrontEndUiUx.png";
 
 import imgMiniApp from './assets/imgProjects/MiniApp.png'
 import imgAppVendas from './assets/imgProjects/AppVendas.png'
@@ -23,6 +24,11 @@ export const arrayCertificados = [
     {
       nome: "Redux",
       imagem: Redux,
+      link: "",
+    },
+    {
+      nome: "Front End & UI/UX",
+      imagem: FrontEndUiUx,
       link: "",
     },
     {

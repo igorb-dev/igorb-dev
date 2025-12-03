@@ -18,6 +18,7 @@ import SvgArrowTop from "./assets/SVGS/SvgArrowTop";
 import {arrayCertificados, dataProjetos} from './App.data'
 
 import { register } from 'swiper/element/bundle';
+import SvgLinkedinLArge from './assets/SVGS/SvgLinkedinLarge';
 
 const customStylesCertificado = {
   overlay: {
@@ -229,11 +230,10 @@ const App = () => {
           </div>
 
           <div>
-            <p className='Sobre-text'>Um desenvolvedor apaixonado por criar soluções inovadoras e funcionais. Com 4 anos de experiência, estou constantemente aprimorando minhas habilidades para enfrentar desafios complexos e contribuir para projetos bem-sucedidos.</p>
-            <p className='Sobre-text'>Minha jornada começou com uma formação em Análise e Desenvolvimento de Sistemas e, desde então, tenho me concentrado em Front-End Web e Mobile. Tenho experiência sólida em JavaScript, TypeScript e React e estou sempre buscando aprender e me adaptar às tendências emergentes da indústria.</p>
-            <p className='Sobre-text'>Durante minha carreira, trabalhei em diversos projetos emocionantes que me proporcionaram a oportunidade de colaborar com equipes talentosas. Um dos meus projetos notáveis inclui o sistema de compras de consórcios da Magazine Luiza, onde desempenhei um papel fundamental na surpevisão e orientação dos desenvolvedores da equipe e na construção do front-end utilizando React e React Native, resultando em um sistema robusto e otimizado para venda de consórcios.</p>
-            <p className='Sobre-text'>Além das habilidades técnicas, sou reconhecido por minha habilidade de comunicação clara e eficaz, o que me permite colaborar de forma eficiente com os membros da equipe e os stakeholders. Tenho uma abordagem orientada para soluções, encontrando maneiras inovadoras de superar obstáculos e entregar produtos de alta qualidade dentro dos prazos estabelecidos.</p>
-            <p className='Sobre-text'>Estou animado para fazer parte de projetos desafiadores que me permitam aplicar minha paixão pelo desenvolvimento de software e criar soluções que impactem positivamente a vida das pessoas. Vamos colaborar e criar algo incrível juntos!</p>
+            <p className='Sobre-text'>Sou um desenvolvedor Full-Stack em constante evolução, apaixonado por criar soluções inovadoras e funcionais. Com 4 anos de experiência, atuo principalmente em Front-End Web e Mobile, com sólida experiência em JavaScript, TypeScript e React, enquanto expandi gradualmente minhas habilidades para o Back-End, construindo soluções completas e escaláveis.</p>
+            <p className='Sobre-text'>Minha trajetória inclui projetos desafiadores, nos quais pude colaborar com equipes talentosas e entregar produtos de alta qualidade. Um destaque foi o sistema de compras de consórcios da Magazine Luiza, onde lidero a supervisão e orientação da equipe, desenvolvendo um front-end robusto com React e React Native e contribuindo para a arquitetura de soluções integradas.</p>
+            <p className='Sobre-text'>Além da expertise técnica, sou reconhecido pela comunicação clara e colaboração eficaz, garantindo alinhamento entre equipes e stakeholders. Adoto uma abordagem orientada a soluções, buscando formas inovadoras de superar obstáculos e entregar resultados impactantes.</p>
+            <p className='Sobre-text'>Estou motivado a participar de projetos desafiadores que me permitam aplicar minha paixão pelo desenvolvimento e criar soluções que realmente façam diferença.</p>
           </div>         
         </div>
 
@@ -316,7 +316,7 @@ const App = () => {
                     <div className='swapper-slide-p'>
                       <p className='swipper-slide-name'>{item.nomeProj}</p>
                     <div className="line2" />
-                      <p className='swipper-slide-sub-name'>{item.descProj} {item.link != '' && <a className='button-link' href="https://igorbdev.github.io/dogs/" target="_blank" rel="noopener noreferrer">- <SvgLink /></a>}</p>
+                      <p className='swipper-slide-sub-name'>{item.descProj} {item.link != '' && <a className='button-link' href={item.link} target="_blank" rel="noopener noreferrer">- <SvgLink /></a>}</p>
                       <p className='swipper-slide-info'>{item.sobreProj}</p>
                     </div>
                     <div className='swapper-slide-img' onClick={() => openModal(item.imgProj)}><img src={item.imgProj} alt={item.nomeProj} /></div>
@@ -367,7 +367,12 @@ const App = () => {
              
               </div>
               <p className='contatos-title-icon'>E-mail</p>
-              <a className='contatos-title-link' href="">dev.igorb</a>
+              <a 
+                className='contatos-title-link' 
+                href="mailto:bitencourt.igor@hotmail.com"
+              >
+                dev.igorb
+              </a>
             </div>
             
             <div className="container-icones">
@@ -375,7 +380,15 @@ const App = () => {
                 <SvgGithubProp />
               </div>
               <p className='contatos-title-icon'>Github</p>
-              <a className='contatos-title-link' href="https://github.com/igorbdev">/igorb-dev</a>
+              <a className='contatos-title-link' target="_blank" href="https://github.com/igorb-dev">/igorb-dev</a>
+            </div>
+
+            <div className="container-icones">
+              <div className="icone">
+                <SvgLinkedinLArge />
+              </div>
+              <p className='contatos-title-icon'>Linkedin</p>
+              <a className='contatos-title-link' target="_blank" href="https://www.linkedin.com/in/igorbdev/">/igorbdev</a>
             </div>
           </div>
         </div>
