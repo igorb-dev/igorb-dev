@@ -7,11 +7,14 @@
 [![YouTube](https://img.shields.io/badge/YouTube-red?style=flat-square&logo=YouTube&logoColor=white&link=https://www.youtube.com/@igorbdev)](https://www.youtube.com/@igorbdev)
 
 
+<!--
 ### ⚡ GitHub Stats
 <div style="display:inline-block">
 <img  height="150em" alt="" src="https://github-readme-stats.vercel.app/api?username=igorb-dev&show_icons=true&theme=monokai">
 <img height="150em" alt="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorb-dev&layout=compact&theme=monokai">
 </div>
+-->
+
 
 
 ### 🚀 Languages ​​and Technologies
