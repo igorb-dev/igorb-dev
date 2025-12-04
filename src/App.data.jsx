@@ -63,28 +63,28 @@ export   const dataProjetos = [
         nomeProj: 'Mini App Consórcio Magalu',
         imgProj: imgMiniApp,
         descProj: 'Sistema de auto compra de consórcios da Magazine Luiza',
-        sobreProj: 'Tive uma grande participação nesse projeto, liderando a equipe de desenvolvimento e desenvolvendo o Front-End desde o ínicio do projeto. É um projeto PWA para ser utilizado tanto em Web quanto Mobile, desenvolvido em React com TypeScript, seguindo todos os eventos do SCRUM, utilizando o Azure Devops para realização das tarefas, participei brevemente do Back-End onde utilizamos NodeJs.',
+        sobreProj: 'Participei ativamente do desenvolvimento do Mini App Consórcio Magalu, atuando como líder técnico e responsável por toda a implementação do Front-End desde o início. O sistema é um PWA voltado ao autoatendimento para compra de consórcios, acessível tanto no desktop quanto no mobile, desenvolvido em React com TypeScript. Trabalhamos seguindo todas as cerimônias do SCRUM e utilizando o Azure DevOps para planejamento e acompanhamento das tarefas. Além disso, também contribui em pontos estratégicos do Back-End utilizando Node.js para integrações e regras de negócio.',
         link: ''
       },
     {
         nomeProj: 'App Vendas Magalu',
         imgProj: imgAppVendas,
         descProj: 'Sistema para venda de consórcios da Magazine Luiza',
-        sobreProj: 'Como principal desenvolvedor e líder da equipe de desenvolvimento, participei desde a criação das telas até a entrega do projeto, participando das revisões com o cliente, apresentando as novas funcionalidades. O sistema é um aplicativo Android e iOS desenvolvido em React Native com TypeScript no Front-End, onde atuei a maior parte do tempo, e Nodejs no Back-End, onde tive pouca participação em relação ao código. Utilizamos SCRUM e Azure DevOps como ferramentas para um desenvolvimento mais eficaz.',
+        sobreProj: 'Atuei como principal desenvolvedor e líder da equipe no App Vendas Magalu, participando desde a concepção das telas até a entrega final do projeto, incluindo revisões e apresentações de novas funcionalidades para o cliente. O sistema é um aplicativo Android e iOS desenvolvido em React Native com TypeScript, área em que concentrei a maior parte da minha atuação no Front-End. Também contribuí no Back-End em menor proporção, utilizando Node.js para integrações específicas. Todo o desenvolvimento foi conduzido utilizando SCRUM e Azure DevOps, garantindo organização, eficiência e alinhamento contínuo com o cliente.',
         link: ''
       },
     {
       nomeProj: 'Stellantis Tool-Control',
       imgProj: imgEnablers,
       descProj: 'Sistema de inventário de ferramentas para as montadoras',
-      sobreProj: 'Stellantis é um grupo automotivo multinacional da Fiat Chrysler Automobiles com a montadora francesa PSA Group. Esse projeto é um sistema de inventário onde é possivel atravéz de QrCode e localização, ter o controle de onde estão as ferramentas usadas nas diversas montadoras. Participei como Desenvolvedor Front-End criando as telas em React Native com TypeScript com base nos protótipos do figma e Integrando o Front-End com o Back-End. É um projeto PWA onde é possível usar o sistema tanto mobile via APP quanto web via browser.',
+      sobreProj: 'A Stellantis é um grupo automotivo multinacional formado pela união da Fiat Chrysler Automobiles com o PSA Group, e neste projeto atuei como Desenvolvedor Front-End no desenvolvimento de um sistema de inventário capaz de rastrear ferramentas utilizadas nas montadoras por meio de QR Code e geolocalização. Fui responsável pela criação das interfaces em React Native com TypeScript, seguindo os protótipos definidos no Figma, além da integração completa do Front-End com o Back-End. O projeto foi desenvolvido como um PWA, permitindo sua utilização tanto em dispositivos mobile via aplicativo quanto diretamente no navegador.',
       link: ''
     },
     {
       nomeProj: 'Empírica Investimentos',
       imgProj: imgEmpirica,
       descProj: 'Sistema de investimentos Empírica',
-      sobreProj: 'Sistema de fundos de investimentos como Fundo Multimercado, FIDC, Fundos no Exterior, Fundos Imobiliários e Serviços. Participei da equipe de desenvolvimento Front-End usando React com TypeScript criando as telas e integrando o Front-End com o Back-End.',
+      sobreProj: 'O projeto da Empírica Investimentos é um sistema completo para gestão, compra e venda de diferentes tipos de fundos, incluindo Fundos Multimercado, FIDC, Fundos no Exterior, Fundos Imobiliários e serviços relacionados. Atuei na equipe de desenvolvimento Front-End utilizando React com TypeScript, sendo responsável pela criação das interfaces e pela integração do Front-End com o Back-End, garantindo uma experiência fluida, segura e consistente em todo o fluxo de operações financeiras.',
       link: ''
     },
     {
