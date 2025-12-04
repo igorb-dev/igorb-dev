@@ -11,7 +11,7 @@ import imgMiniApp from './assets/imgProjects/MiniApp.png'
 import imgAppVendas from './assets/imgProjects/AppVendas.png'
 import imgEnablers from './assets/imgProjects/Enablers.png'
 import imgEmpirica from './assets/imgProjects/Empirica.png'
-import imgDogs from './assets/imgProjects/Dogs.png'
+import imgQualOAscendente from './assets/imgProjects/QualOAscendente.png'
 import imgMiniDogs from './assets/imgProjects/MiniDogs.png'
 import imgAnimaisFantasticos from './assets/imgProjects/AnimaisFantasticos.png'
 
@@ -60,6 +60,13 @@ export const arrayCertificados = [
 
 export   const dataProjetos = [
     {
+        nomeProj: 'Qual o ascendente?',
+        imgProj: imgQualOAscendente,
+        descProj: 'Aplicativo mobile publicado na Google Play',
+        sobreProj: 'O Qual o Ascendente é um aplicativo desenvolvido inteiramente por mim em React Native com TypeScript, publicado na Google Play e monetizado através de banners do Google AdMob. Idealizado como projeto pessoal, o app demonstra minha capacidade de entregar uma solução completa — desde o design das interfaces e implementação das funcionalidades até a configuração de monetização e publicação oficial na loja — reforçando minha experiência em desenvolvimento Mobile e em todo o ciclo de entrega de um produto real.',
+        link: 'https://play.google.com/store/apps/details?id=com.qualoascendente&hl=pt_BR'
+      },
+      {
         nomeProj: 'Mini App Consórcio Magalu',
         imgProj: imgMiniApp,
         descProj: 'Sistema de auto compra de consórcios da Magazine Luiza',
@@ -87,25 +94,4 @@ export   const dataProjetos = [
       sobreProj: 'O projeto da Empírica Investimentos é um sistema completo para gestão, compra e venda de diferentes tipos de fundos, incluindo Fundos Multimercado, FIDC, Fundos no Exterior, Fundos Imobiliários e serviços relacionados. Atuei na equipe de desenvolvimento Front-End utilizando React com TypeScript, sendo responsável pela criação das interfaces e pela integração do Front-End com o Back-End, garantindo uma experiência fluida, segura e consistente em todo o fluxo de operações financeiras.',
       link: ''
     },
-    {
-      nomeProj: 'Dogs - Rede social para cachorros',
-      imgProj: imgDogs,
-      descProj: 'Projeto do curso de React',
-      sobreProj: 'Projeto desenvolvido no curso de React utilizando React com JavaScript, React Router, useContext, PropTypes, Componentes Funcionais, Hooks, entre outros.',
-      link: 'https://igorbdev.github.io/dogs/'
-    },
-    {
-      nomeProj: 'Mini Dogs - Gerenciamento de Usuarios Dogs',
-      imgProj: imgMiniDogs,
-      descProj: 'Projeto do curso de Redux',
-      sobreProj: 'Projeto desenvolvido no curso de Redux utilizando React com JavaScript e Redux, Store, Dispath, Hooks, Actions entre outros.',
-      link: 'https://igorbdev.github.io/redux/'
-    },
-    {
-      nomeProj: 'Animais Fantásticos',
-      imgProj: imgAnimaisFantasticos,
-      descProj: 'Projeto do curso de JavaScript',
-      sobreProj: 'Projeto desenvolvido no curso de JavaScript, do básico ao avançado, com Git, Fetch, Promises, Objetos, Arrays, Babel, entre outros.',
-      link: 'https://igorbdev.github.io/animais-fantasticos/'
-    }
   ]
